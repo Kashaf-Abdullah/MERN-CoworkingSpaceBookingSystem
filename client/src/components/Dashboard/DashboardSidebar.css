@@ -1,0 +1,52 @@
+/* DashboardSidebar.css */
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .sidebar-logo {
+    height: 40px;
+  }
+
+  .sidebar-title {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+
+  .sidebar-bottom {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .pro-sidebar .pro-menu-item a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .pro-sidebar .pro-menu-item a:hover {
+    color: darkgray;
+  }
+
+  .pro-sidebar .pro-menu-item a:hover .pro-icon-wrapper {
+    color: darkgray;
+  }
+
+  .pro-sidebar .pro-menu-item a .pro-icon-wrapper {
+    color: white;
+  }
+
+
+.sidebarwidth{
+  width: 15%;
+}
